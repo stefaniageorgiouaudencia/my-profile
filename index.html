@@ -1,125 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>My bio</title>
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta name="description" content="le wagon bio" />
-  <link href="style.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 </head>
-
 <body>
-<main class="main-wrapper">
-    <header class="section-about-header">
-      <div class="page-padding">
-        <div class="container-large">
-          <div class="padding-vertical-about">
-            <div class="about-component-grid">
-              
-              <!-- Φωτογραφία -->
-              <div class="inner-container">
-                <div class="image-about-wrapper">
-                  <div class="shape-image-about"></div>
-                  <div class="shape-image-about _2">
-                    <img src="images/profile.jpg" alt="Stefania Georgiou" class="about-image">
 
-                  </div>
-                </div>
-              </div>
+  <main class="main-wrapper">
 
-              <!-- Κείμενο -->
-              <div class="inner-container">
-                <div class="max-width-medium">
-                  <h1 class="heading-large">I'm Stefania Georgiou</h1>
-                </div>
-                <div class="margin-top margin-small">
-                  <div class="max-width-small">
-                    <p class="text-size-regular">
-                      I'm a greek student and I study mamagement science and technology at Athens University od Economics and Business.              
-                    </p>
-                  </div>
-                </div>
-                <div class="margin-top margin-medium">
-                  <div class="horizontal-flex header">
-                    <a href="#" class="button">
-                      <div>Get in touch</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="section-about-experience">
-      <div class="page-padding">
-        <div class="container-large">
-          <div class="padding-vertical padding-xhuge">
-            <div class="margin-bottom margin-large">
-              <h2 class="heading-medium">My education & experience</h2>
-            </div>
-
-            <div class="experience-component-grid">
-              <div class="content-block">
-                <div class="experience-content">
-                  <div class="inner-container">
-                    <div class="text-size-regular text-style-allcaps">High school diploma - 2020-2023</div> 
-                    <div class="margin-top margin-small">
-                      <h2 class="heading-small">Model High School of Zosimaia School of Ioannina</h2>
-                    </div>
-                  </div>
-                  <div class="inner-container">
-                    <p class="text-size-regular">
-                      Graduated with honors. Completed secondary education with emphasis on core academic subjects and general knowledge development. 
-                      Built a strong educational foundation for further studies.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="content-block">
-                <div class="experience-content">
-                  <div class="inner-container">
-                    <div class="text-size-regular text-style-allcaps">Athens University of Economics and Business – 2023-now</div> 
-                    <div class="margin-top margin-small">
-                      <h2 class="heading-small">Bachelor of Management science and Technology in progress</h2>
-                    </div>
-                  </div>
-                  <div class="inner-container">
-                    <p class="text-size-regular">
-                      Currently pursuing studies in management, economics, and digital technologies, with 
-                      a focus on data analysis, business strategy, and innovation. Building strong 
-                      problem-solving and project management skills through coursework and academic projects.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="content-block">
-                <div class="experience-content">
-                  <div class="inner-container">
-                    <div class="text-size-regular text-style-allcaps">TIMES STORE – 2024 / 2025</div> 
-                    <div class="margin-top margin-small">
-                      <h2 class="heading-small">Retail Sales Specialist</h2>
-                    </div>
-                  </div>
-                  <div class="inner-container">
-                    <p class="text-size-regular">
-                      Assisted customers with product selection and provided personalized service to ensure 
-                      a positive shopping experience. Gained valuable skills in communication, teamwork, and 
-                      problem-solving while managing daily store operations.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <section class="hero-section">
+      <div class="container-large">
+        <div class="card-white hero-card">
+          <div class="hero-content">
+            <h1 class="heading-large">Hello, I'm Stefania Georgiou</h1>
+            <img src="images/profile.jpg" alt="Stefania Georgiou" class="hero-image">
+            <p class="hero-description">
+              I'm a Greek student and I study Management Science and Technology at the Athens University of Economics and Business.
+            </p>
+            <a href="#" class="button">Get in touch</a>
           </div>
         </div>
       </div>
     </section>
-  </main>  
-</body> 
+
+    <section class="section-about-experience">
+      <div class="container-large">
+        <h2 class="heading-medium">My education & experience</h2>
+
+        <div class="experience-component-grid">
+
+          <div class="card-white">
+            <div class="text-size-regular text-style-allcaps">High school diploma - 2020–2023</div>
+            <h2 class="heading-small">Model High School of Zosimaia School of Ioannina</h2>
+            <p class="text-size-regular">
+              Graduated with honors. Completed secondary education with emphasis on academic subjects and general knowledge development.
+            </p>
+          </div>
+
+          <div class="card-white">
+            <div class="text-size-regular text-style-allcaps">Athens University of Economics and Business – 2023–now</div>
+            <h2 class="heading-small">Bachelor of Management Science and Technology (in progress)</h2>
+            <p class="text-size-regular">
+              Currently studying management, economics, and digital technologies with a focus on data analysis, business strategy, and innovation.
+            </p>
+          </div>
+
+          <div class="card-white">
+            <div class="text-size-regular text-style-allcaps">TIMES STORE – 2024 / 2025</div>
+            <h2 class="heading-small">Retail Sales Specialist</h2>
+            <p class="text-size-regular">
+              Assisted customers with product selection and provided personalized service. Gained skills in communication, teamwork, and problem-solving.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="list-inline">
+        <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-medium"></i></a></li>
+      </ul>
+      <p>&copy; 2025 Stefania Georgiou</p>
+    </footer>
+
+  </main>
+
+</body>
 </html>
